@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagens/img_niteroi.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Porto Logística</title>
+    <!--Head é uma tag de configuração-->
+</head>
+
+<body>
+    <header>
+        <h2>PortoLogística</h2>
+        <nav> <!-- Navegação: NAV > UL > LI > A (lista)-->
+            <ul>
+                <li><a href="#" target="_blank">Home </a></li>
+                <li><a href="#" target="_blank">Mais </a></li>
+                <li><a href="#" target="_blank">Sobre </a></li>
+                <li><a href="#" target="_blank">Serviços </a></li>
+                <li><a href="#" target="_blank">Contato </a></li>
+
+            </ul>
+        </nav>
+        <button>Entrar</button>
+    </header>
+
+    <!---MONITORIA E TESTES-->
+
+    <main>
+        <section class="container_background_image">
+            <article>
+                <h1>PortoLogística</h1>
+                <p>Soluções integradas para gestão portuária</p>
+                <button type="button">Serviços</button>
+            </article>
+        </section>
+
+        <section class="container_gestao_portuaria" id="sobre">
+            <article>
+                <h2>Gestão portuária integrada</h2>
+                <h3>Simplificando suas operações portuarias</h3>
+                <p> A PortoLogistica é um sistema de gestão integrado de ultima geração desenvolvido para aumentar a
+                    eficiência e a segurança das operações portuárias no Brasil. Nossa plataforma oferece monitoramento
+                    em tempo real, automação de processos e análise de dados, garantindo que suas necessidades de
+                    movimentação, descarga e armazenamento de carga sejam atendidas com precisão. Faça parceria conosco
+                    para obter uma solução robusta e confiável para agilizar seus fluxos logísitcos. </p>
+                <h4>Entre em contato</h4>
+            </article>
+            <img src="./imagens/imagem_gestao_portuaria.png" alt="Imagem de um navio com containers">
+        </section>
+        <section class="container-solucoes-portuaria" id="servicos">
+            <h2>Nossas soluções</h2>
+            <h3>O que esperar do nosso sistema</h3>
+            <ul class="container-list">
+                <li>
+                    <figure>
+                        <img src="./imagens/box_1.png" alt="Imagem de um container azul ilustrativo">
+                        <figcaption>
+                            <h4>Containers a todo momento</h4>
+                            <p>Alugue seu container a qualquer momento entrando em contato com os nossos colaboradores.
+                            </p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./imagens/box_2.png" alt="Imagem de um navio cargueiro no mar">
+                        <figcaption>
+                            <h4>+ 1000 navios</h4>
+                            <p>Temos mais de 1000 navios prontos para lidar com suas demandas.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="./imagens/box_3.png" alt="Imagem de uma tela com monitoramento em tempo real">
+                        <figcaption>
+                            <h4>Monitoramento</h4>
+                            <p>Nosso monitoramento é feito em tempo real com os profissionais mais qualificados do
+                                mercado.</p>
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </section>
+
+        <section class ="container_master">
+
+        <section class="container_contato">
+            <article>
+                        <h2>Atendimento e Comercial</h2>
+                    <h3>Entre em contato com a unidade:</h3>
+                    </article>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="./imagens/niteroi.png" alt="Imagem de niterói">
+                            <figcaption>
+                                <p>niterói</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./imagens/ilha_conceicao.png" alt="Imagem de ilha da conceição">
+                            <figcaption>
+                                <p>ilha da conceição</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./imagens/santos.png" alt="Imagem de Santos">
+                            <figcaption>
+                                <p>santos</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="./imagens/caju.png" alt="imagem de Cajú">
+                            <figcaption>
+                                <p>cajú</p>
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+            </section>
+
+            <form action=""><!--Tudo voltado ao formulário vai dentro da tag form-->
+                    <section class="FaleConosco">
+                    <!--Moldura que guarda o formulário (opcional)-->
+                    <h2>Fale Conosco</h2>
+                    <h3>Se conecte com nossos colaboradores</h3>
+                    <!-- Legenda para o forms, ela descreve o fieldset-->
+                    
+                    <fieldset>
+                    <div>
+                        <label for="nome">Nome</label>
+                        <!-- Label é uma equita para o input, descreve para o que aquele input serve-->
+
+                        <input type="text" name="nome" id="nome" placeholder="Digite o seu nome" />
+                        <!--Input é um campo para digitação, typee é o tipo do input, name é o nome dado para o input, id é tipo a identidade/cpf daquele input-->
+                    </div>
+
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite o seu e-mail" />
+                    </div>
+
+                    <div>
+                        <label for="tel">Telefone</label>
+                        <input type="tel" name="telefone" id="telefone" placeholder="Digite o seu telefone" />
+                    </div>
+
+                    <div>
+                        <label for="mensagem">Mensagem</label>
+                        <input type="text" name="mensagem" id="mensagem" />
+                    </div>
+
+                    <!--Button do tipo submit é para enviar as infos preenchidas no forms-->
+                    <button type="submit">Enviar</button>
+                </section></fieldset>
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Itim&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+header {
+  background-color: white;
+  border: solid;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald", sans-serif;
+}
+
+header h2 {
+  width: 30%;
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+header nav {
+  width: 60%;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+header ul li, header ul a {
+  display: inline-block;
+  font-size: 1.25rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #5b5b5b;
+  transition: all 300ms ease-in-out;
+}
+
+header ul li a:hover, header ul a a:hover {
+  color: #000000;
+  transform: scale(0.9);
+  letter-spacing: 0.001em;
+}
+
+.container_background_image {
+  background-color: #120e96;
+  height: 100vh;
+  background-image: url("./imagens/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container_background_image h1 {
+  font-size: 6rem;
+  color: #FFFFFF;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+.container_background_image p {
+  font-size: 2rem;
+  color: #FFFFFF;
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+}
+
+.container_gestao_portuaria {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container_gestao_portuaria img {
+  width: 20vw;
+}
+
+.container_master {
+  display: flex;
+}
+
+.container_background_image article button {
+  background: #0016DF;
+  color: #FFFFFF;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 35.57px;
+  text-align: center;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  width: 251px;
+  height: 59px;
+  top: 526px;
+  left: 152px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+article h2 {
+  color: #0017E9;
+  font-family: "Oswald", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35.57px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+article h3 {
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 42.19px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+article h4 {
+  color: #0017E9;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+article p {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+  header {
+    height: 30vh;
+  }
+  h2 {
+    display: none;
+  }
+  ul {
+    height: 30vh;
+    flex-direction: column;
+  }
+}
+form {
+  color: #000000;
+  width: 40%;
+  height: 50vh;
+  background-color: #FFFFFF;
+  display: flex;
+}
+
+fieldset {
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: none;
+  padding: 1rem;
+  gap: 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px;
+  border: #000000;
+}
+
+textarea {
+  height: 10vh;
+}
+
+.FaleConosco h2 {
+  color: #0016DF;
+}
+
+.FaleConosco h3 {
+  color: #000000;
+}
+
+#mensagem {
+  height: 10vh;
+  padding: 1rem;
+  background-color: #FFFFFF;
+  width: 332px;
+  height: 111px;
+  top: 580px;
+  left: 898px;
+}
+
+#email {
+  background-color: #FFFFFF;
+}
+
+form button {
+  width: 332px;
+  height: 58px;
+  top: 751px;
+  left: 898px;
+  gap: 0px;
+  opacity: 0px;
+  background: #0017E9;
+  color: #FFFFFF;
+}/*# sourceMappingURL=style.css.map */
